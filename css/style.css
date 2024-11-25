@@ -13,6 +13,18 @@ a {
     text-decoration: none;
 }
 
+.container {
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.header {
+    width: 100%;
+    background-image: url(../images/main_page.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 button {
     padding: 0;
     border: none;
@@ -22,17 +34,6 @@ button {
 
 ul {
     list-style: none;
-}
-.container {
-    max-width: 1920px;
-    padding: 0 auto;
-    margin: 0 auto;
-}
-
-.header__top {
-    background-image: url(../images/main_page.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
 }
 
 .menu {
@@ -108,5 +109,9 @@ ul {
     border: none;  
     height: 55px;
     width: 55px;   
+}
+
+.menu__item {
+
 }
 
