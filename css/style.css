@@ -55,21 +55,21 @@ ul {
     width: 55px;   
 }
 
-.top_rs_search {
+.aside__search {
     background: url(../images/search.png) no-repeat center / contain;
     border: none;  
     height: 55px;
     width: 55px;  
 }
 
-.top_rs_people {
+.aside__people {
     background: url(../images/people.png) no-repeat center / contain;
     border: none;  
     height: 55px;
     width: 55px;  
 }
 
-.top_rs_bag {
+.aside__bag {
     background: url(../images/bag.png) no-repeat center / contain;
     border: none;  
     height: 55px;
@@ -111,7 +111,34 @@ ul {
     width: 55px;   
 }
 
-.menu__item {
-
+.menu__list {
+    width: 69px;
+    height: 401px;
+    padding-top: 178.2px;
+    padding-left: 45.5px;
 }
 
+.menu__item {
+    font-family: 'Akrobat';
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 100;
+    padding-bottom: 40px;   
+}
+
+.menu__item:hover {
+    color: #ffffff;
+    padding-bottom: 4px;
+    border-bottom: 3px solid #ffffff;
+    padding-bottom: 2px;
+}
+
+
+@font-face {
+    font-family: 'Akrobat';
+    src: url(../fonts/Akrobat-SemiBold.woff2) format('woff2'),
+        url(../fonts/Akrobat-SemiBold.woff) format('woff');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
